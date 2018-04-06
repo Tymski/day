@@ -1,0 +1,3 @@
+putDayOfTheWeekInDayDivAndDocumentTitle = () => { document.title = day.innerHTML = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][new Date().getDay()];} // This line of code is unnecessarily long and making this comment doesn't help with that.
+putDayOfTheWeekInDayDivAndDocumentTitle();
+setInterval(putDayOfTheWeekInDayDivAndDocumentTitle, 6000); // I could calculate the time to next day and setTimeout for it in which there is 24 hour setInterval, but hey, this works too.
